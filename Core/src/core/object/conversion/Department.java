@@ -34,4 +34,9 @@ public Department(int dId, String dName) {
 	this.dName = dName;
 }
 
+@Override
+public String toString() {
+	return "Department [dId=" + dId + ", dName=" + dName + "]";
+}
+
 }
