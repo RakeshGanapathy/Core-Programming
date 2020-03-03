@@ -1,7 +1,7 @@
 package core.object.conversion;
 
 import java.io.Serializable;
-import javax.xml.bind.Marshaller;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
