@@ -70,5 +70,4 @@ public class Employee implements Serializable {
 		this.department = department;
 	}
 
-	
 }
