@@ -1,4 +1,4 @@
-package core.practise;
+package core.practical.cases;
 
 import java.util.Scanner;
 
