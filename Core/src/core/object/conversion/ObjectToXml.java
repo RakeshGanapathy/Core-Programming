@@ -7,7 +7,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-public class JaxbImplString {
+public class ObjectToXml {
 
 	private static Marshaller jaxbImpl() {
 		// Create JAXB Context
