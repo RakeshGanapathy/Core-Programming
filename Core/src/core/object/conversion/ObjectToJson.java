@@ -1,5 +1,6 @@
 package core.object.conversion;
 
+import java.io.FileWriter;
 import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +16,9 @@ public class ObjectToJson {
 
 			// get employee object as a json string
 			String jsonStr = Obj.writeValueAsString(employee);
-
+			FileWriter fw = new FileWriter("Employee.json");
+			fw.write(jsonStr);
+			fw.close();
 			// Displaying JSON String
 			System.out.println(jsonStr);
 		}
