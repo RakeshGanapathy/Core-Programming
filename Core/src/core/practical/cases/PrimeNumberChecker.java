@@ -26,11 +26,9 @@ public class PrimeNumberChecker {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("kindly enter the input :");
 		long input = scan.nextLong();
-		if (input == 0)
+		if (input == 0||input ==1)
 			System.out.println("enter the valid input ");
-		else if (input == 1 || input == 3) {
-			System.out.println(input + " is a prime number ");
-		} else {
+		else {
 			isPrime(input);
 		}
 
