@@ -1,6 +1,6 @@
 package core.practical.cases;
 
-import java.util.Scanner;
+import core.util.InputHandler;
 
 public class ArmstrongNumberChecker {
 	private static int findDigits(long input) {
@@ -31,11 +31,8 @@ public class ArmstrongNumberChecker {
 	}
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("kindly enter the input :");
-		long originalNumber = scan.nextLong();
-		ArmstrongNumber(originalNumber);
-		scan.close();
+		long input = InputHandler.getInput();
+		ArmstrongNumber(input);
 	}
 
 }
