@@ -2,6 +2,8 @@ package core.practical.cases;
 
 import java.util.Scanner;
 
+import core.util.InputHandler;
+
 public class FibonacciGenerator {
 	static void fiboGenarator(long limit) {
 		int n1 = 0, n2 = 1, n3, i;
@@ -17,11 +19,8 @@ public class FibonacciGenerator {
 	}
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("kindly enter the input for fibo series:");
-		long input = scan.nextLong();
+		long input = InputHandler.getInput();
 		fiboGenarator(input);
-		scan.close();
 	}
 
 }
