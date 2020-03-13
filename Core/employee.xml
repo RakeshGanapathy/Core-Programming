@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <employee>
-    <department>
-        <dId>101</dId>
-        <dName>IT</dName>
-    </department>
+    <department/>
     <firstName>Lokesh</firstName>
     <id>1</id>
     <lastName>Gupta</lastName>

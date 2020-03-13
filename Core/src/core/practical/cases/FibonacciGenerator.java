@@ -1,7 +1,5 @@
 package core.practical.cases;
 
-import java.util.Scanner;
-
 import core.util.InputHandler;
 
 public class FibonacciGenerator {
