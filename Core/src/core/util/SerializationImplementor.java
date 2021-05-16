@@ -1,4 +1,4 @@
-package core.io.file;
+package core.util;
 
 public class SerializationImplementor {
 
