@@ -1,4 +1,4 @@
-#Serial Version UID
+# Serial Version UID
 
 * The JVM associates a version (long) number with each serializable class. It is used to verify that the saved and loaded objects have the same attributes 
 and thus are compatible on serialization.
